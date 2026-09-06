@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+*.secret
+token.txt
+credentials.json
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+transformers_cache/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Generated audio
+*.wav
+*.mp3
+*.flac
+
+# Runtime data
+asr_audit/
+logs/
+outputs/
+
+# Colab/runtime
+/content/
